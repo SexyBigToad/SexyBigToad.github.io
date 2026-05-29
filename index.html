@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>chunyudahama</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(90deg, #00d2ff, #928dab);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    p {
+      font-size: 1.1rem;
+      color: rgba(255, 255, 255, 0.7);
+      margin-bottom: 2rem;
+      max-width: 500px;
+      line-height: 1.6;
+    }
+
+    .links {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .links a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 8px;
+      transition: all 0.3s ease;
+      font-size: 0.95rem;
+    }
+
+    .links a:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: #00d2ff;
+      transform: translateY(-2px);
+    }
+
+    .footer {
+      margin-top: 3rem;
+      font-size: 0.85rem;
+      color: rgba(255, 255, 255, 0.35);
+    }
+  </style>
+</head>
+<body>
+  <h1>chunyudahama</h1>
+  <p>记录学习与思考的地方 — 深度学习、数学、编程</p>
+
+  <div class="links">
+    <a href="/docs/">进入博客</a>
+    <a href="https://github.com/chunyudahama" target="_blank">GitHub</a>
+  </div>
+
+  <div class="footer">Powered by VuePress</div>
+</body>
+</html>
